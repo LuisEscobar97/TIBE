@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "305677388458",
+    "firebase_url": "https://tibe-610b7.firebaseio.com",
+    "project_id": "tibe-610b7",
+    "storage_bucket": "tibe-610b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305677388458:android:3eb1af58af60bb04",
+        "android_client_info": {
+          "package_name": "com.example.tibeverano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305677388458-gpi7g5mgrvpnladj31em981hnr9afn18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tibeverano",
+            "certificate_hash": "720e65121d74fed2172655e92a0f93853aee306d"
+          }
+        },
+        {
+          "client_id": "305677388458-4jvoburch4881eu9stjuk8e4lqcjtvsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoktr7BCIeZgDsX2gvzQB85BtKWUKdspg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305677388458-4jvoburch4881eu9stjuk8e4lqcjtvsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

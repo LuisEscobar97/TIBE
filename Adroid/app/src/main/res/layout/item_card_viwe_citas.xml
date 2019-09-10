@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_recicler"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="5dp"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/layImageCitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/imageInfoCitas"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layInfoCitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/layImageCitas">
+
+            <TextView
+                android:id="@+id/textView2CItas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nombre:"
+                android:textColor="@color/colorTextPrimary" />
+
+            <TextView
+                android:id="@+id/infoNombreCitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/textView2CItas"
+                android:text="---------------"
+                android:textColor="@color/colorTextPrimary" />
+
+            <TextView
+                android:id="@+id/textView4Citas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fechaCItas"
+                android:text="Fecha: "
+                android:textColor="@color/colorTextPrimary" />
+
+            <TextView
+                android:id="@+id/fechaCItas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoNombreCitas"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/textView4Citas"
+                android:text="----------"
+                android:textColor="@color/colorTextPrimary" />
+
+            <TextView
+                android:id="@+id/textHoraCItas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fechaCItas"
+                android:layout_alignLeft="@id/textView4Citas"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="Hora: "
+                android:textColor="@color/colorTextPrimary" />
+
+            <TextView
+                android:id="@+id/horaCitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/textHoraCItas"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/textHoraCItas"
+                android:text="-----------" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

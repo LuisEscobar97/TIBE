@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalles">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/fotoPerfil"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+
+                android:padding="10dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/lbDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/descripcion"
+
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Descripcion"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/actividades"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="01h:30m:10s"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            //
+
+            <TextView
+                android:id="@+id/lbLugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBaseline="@+id/idiomas"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:text="Idiomas"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/idiomas"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/acerca"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Plazas Outlet Lerma"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lbActividades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/actividades"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Actividades"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/actividades"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/idiomas"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="wdghjawgdasjhgdahjsgdjahsgdjhasgdjhasgdjhgasjhdgasjhdgjashgdjasgdjhagsjdhgasjhdgasjhdgahs"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lbNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fotoPerfil"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="Nombre"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lbNombre"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Luis Angel Escobar Valdes"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lbAcerca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/acerca"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:padding="5dp"
+                android:text="Acerca de mi"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/acerca"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nombre"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:text="sadasd"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lbTarifa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tarifa"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Tarifa"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tarifa"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/descripcion"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="$15.00"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lbZona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBaseline="@+id/zona"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Zona"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/zona"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tarifa"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="$00.00"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnAgendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zona"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/boton_redondo_verde"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Agendar cita"
+
+                android:textColor="@color/colorTextPrimary" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
